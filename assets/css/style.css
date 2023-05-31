@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css");
 /*------------------------------------------------------------------
 [Master Stylesheet]
 Project: Sencare
@@ -18,11 +18,18 @@ Project: Sencare
 */
 
 body {
-  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Pretendard Variable", sans-serif;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  /* font-family: 'DM Serif Display', serif; */
+h1, h2 {
+  font-family: "Pretendard Variable", sans-serif;
+  font-variation-settings: 'wght' 700;
+}
+h3, h4, h5, h6 {
+  font-family: "Pretendard Variable", sans-serif;
+  font-variation-settings: 'wght' 300;
+}
+p {
+  font-variation-settings: 'wght' 100;
 }
 
 :root {
@@ -470,8 +477,9 @@ a {
 
 .menu-section .menu-right-section h5 {
   text-align: center;
-  font-family: 'DM Serif Display', serif;
-  font-weight: 400;
+  /* font-family: 'DM Serif Display', serif; */
+  /* font-weight: 400; */
+  font-variation-settings: 'wght' 400;
   color: var(--e-global-color-primary);
   margin-bottom: 8px;
   letter-spacing: 0;
@@ -1467,7 +1475,7 @@ a {
 .sencare-section .img-text-box span {
   font-size: 36px;
   line-height: 42px;
-  font-family: 'DM Serif Display', serif;
+  /* font-family: 'DM Serif Display', serif; */
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -3238,10 +3246,14 @@ button {
   width: 100%;
   border-radius: 36px;
 }
-
+.menu-section-img{
+  /* background-color: #555555; */
+  height: 300px;
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
+  /* background-color: #555555; */
 }
 
 .blog-content {
