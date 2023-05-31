@@ -1,0 +1,50 @@
+// TEST AVAILABLE: true
+
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Main from './components/Main';
+import Organization from './components/Organization';
+import Partnership from './components/Partnership';
+import ServiceDetail from './components/ServiceDetail';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Loading from './components/Loading';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Main />
+          </Route>
+          <Route path="/organization">
+            <Organization />
+          </Route>
+          <Route path="/partnership">
+            <Partnership />
+          </Route>
+          <Route path="/service/:id">
+            <ServiceDetail />
+          </Route>
+          <Route path="/loading">
+            <Loading />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+/* 
+  웹사이트 레이아웃은 반응형으로 제작되어 다양한 기기에서 사용 가능합니다.
+  메인 페이지에서는 회사와 서비스 소개와 함께 주요 기능을 제공하는 메뉴로 구성됩니다.
+  하위 페이지에서는 조직도, 제휴 업체 정보, 서비스 상세 내용 등을 제공합니다.
+  웹접근성을 준수하여, 시각 장애인 및 저시력자를 위한 ARIA 레이블과 색상 대비 및 터치 대응이 개선됩니다.
+  서버 사이드 렌더링을 적용하여 로딩 속도를 개선합니다.
+  코드는 React 기반으로 작성되며, Git을 이용한 버전 관리와 코드 문서화를 진행합니다.
+*/
