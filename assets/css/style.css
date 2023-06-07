@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css");
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 /*------------------------------------------------------------------
 [Master Stylesheet]
 Project: Sencare
@@ -18,14 +18,14 @@ Project: Sencare
 */
 
 body {
-  font-family: "Pretendard Variable", sans-serif;
+  font-family: "Jua", sans-serif;
 }
 h1, h2 {
-  font-family: "Pretendard Variable", sans-serif;
+  font-family: "Jua", sans-serif;
   font-variation-settings: 'wght' 700;
 }
 h3, h4, h5, h6 {
-  font-family: "Pretendard Variable", sans-serif;
+  font-family: "Jua", sans-serif;
   font-variation-settings: 'wght' 300;
 }
 p {
@@ -34,20 +34,20 @@ p {
 
 :root {
   --e-global-color-primary: #000000;
-  --e-global-color-secondary: #8bc53e;
+  --e-global-color-secondary: #83CE3B;
   --e-global-color-text: #555555;
-  --e-global-color-accent: #8bc53e;
-  --e-global-dark-moderate-violet: #662d91;
-  --e-global-dark-moderate-violet2: #662c91;
-  --e-global-moderate-violet: #8b4fb9;
+  --e-global-color-accent: #83CE3B;
+  --e-global-dark-moderate-violet: #BA6BC6;
+  --e-global-dark-moderate-violet2: #a65fb0;
+  --e-global-moderate-violet: #BA6BC6;
   --e-global-color-white: #ffffff;
   --e-global-e-light-grayish-blue: #f2fafe;
   --e-global-e-color-dark-gray: #a4a4a4;
   --e-global-color-very-light-gray: #eaeaea;
-  --e-global-color-slightly-desaturated-violet: #af85cf;
+  --e-global-color-slightly-desaturated-violet: #BA6BC6;
   --e-global-color-light-grayish-blue2: #cddbe3;
   --e-global-color-light-grayish-green: #e8f3d8;
-  --e-global-color-soft-green: #b2e968;
+  --e-global-color-soft-green: #83CE3B;
   --e-global-color-mostly-white: #fbfbfb;
   --e-global-color-very-light-gray2: #dddddd;
   --e-global-color-input-gray: #aaaaaa;
@@ -335,14 +335,14 @@ a {
   /* display: none; */
   margin-top:30px;
   position: absolute;
-  background-color: #555555;
+  /* background-color: #555555; */
   width: 100%;
-  max-height: 650px;
+  max-height: 700px;
   z-index: 1;
   opacity: 0.5;
 }
 .owlBox img{
-  max-height: 650px;
+  max-height: 700px;
   object-fit: cover;
 }
 
@@ -3254,6 +3254,13 @@ button {
   max-width: 100%;
   height: auto;
   /* background-color: #555555; */
+}
+
+.navbar .img-fluid{
+  width: 200px;
+}
+.sencare-logo-footer .img-fluid{
+  width:350px;
 }
 
 .blog-content {

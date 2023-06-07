@@ -862,6 +862,7 @@ display: none;
   }
 
   h1 {
+    margin-top:50px;
     font-size: 62px;
     line-height: 62px;
   }
@@ -1672,6 +1673,20 @@ h2 {
     padding: 0 24px;
 }
 
+/* slider */
+.owlBox{
+  /* display: none; */
+  margin-top: 0;
+  min-height: 400px;
+}
+.owlBox img{
+  max-height: 700px;
+  min-height: 400px;
+  object-fit:cover;
+}
+
+
+
 
 .banner-btn {
   text-align: center;
@@ -1879,7 +1894,7 @@ h2 {
   padding: 30px 0 100px;
 }
 .home-header-section1 .home-banner-section1 {
-  padding: 30px 0 725px;
+  padding: 30px 0 300px;
 }
 /* index2 */
 .home-banner-section2 .banner-img-section .banner-img2-figure {
@@ -2880,7 +2895,7 @@ h2 {
 }
 /* index */
 .home-header-section1 .home-banner-section1 {
-  padding: 30px 0 567px;
+  padding: 30px 0 300px;
 }
 .offer-section1 {
   padding: 60px 0 40px;
