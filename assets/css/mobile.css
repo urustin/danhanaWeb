@@ -3265,4 +3265,13 @@ h2 {
   background-position: right;
   background-repeat: no-repeat;
 }
+/* qr */
+.contactBox{
+  /* display: inline; */
+}
+.qrImage{
+  width: 100%;
+  /* background-color: aqua; */
+}
+
 }

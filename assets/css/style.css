@@ -1133,6 +1133,21 @@ a {
 .footer-section .contact-info-heading .footer-margin-bottom a {
   color: var(--e-global-color-accent);
 }
+/* QR */
+.contactBox{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.qrImage{
+  background-image: url(/assets/images/qrImage.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10%;
+
+}
+
 
 /* index2 */
 .home-banner-section2 .home-banner-text .banner-deserve {
