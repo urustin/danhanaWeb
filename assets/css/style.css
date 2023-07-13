@@ -2887,9 +2887,12 @@ a {
   border-radius: 20px;
   margin-bottom: 30px;
   box-shadow: 0px 6px 38px 0 #e7e7e7;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .contact-form-section .carousel-card-form input[type=text] {
+
   width: 100%;
   margin: 0 0 35px;
   box-sizing: border-box;
@@ -2897,6 +2900,12 @@ a {
   border-bottom: 1px solid var(--e-global-color-secondary);
   padding-bottom: 26px;
   outline: none;
+  
+}
+
+.contact-form-section .carousel-card-form input[type=text]::placeholder{
+  /* color:blue; */
+  opacity: 0.4;
 }
 
 .contact-form-section .carousel-card-form .form-input-fields {
@@ -2904,7 +2913,8 @@ a {
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
-  color: var(--e-global-color-text);
+  /* color: var(--e-global-color-text); */
+
 }
 
 .contact-form-section .carousel-card-form .popup-btn button {
