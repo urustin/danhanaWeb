@@ -6,6 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 def send_email(name, lname, email, phone, message, service_name):
+
     if service_name == 'danhanacare':
         service_mail = "info@danhanacare.com.au"
     else:
@@ -16,7 +17,6 @@ def send_email(name, lname, email, phone, message, service_name):
     # service_name에 따라 to를 변경해준다.
     msg['To'] = service_mail
     msg['Subject'] = f'[{service_name.upper()}] Someone sent a message from the website'
-    
     body = f"""
     First Name : {name} <br />
     Last Name : {lname} <br />
