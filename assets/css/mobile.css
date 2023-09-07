@@ -137,6 +137,12 @@
 }
 
 @media screen and (max-width: 1199px) {
+  .owlBox img{
+    max-height: 525px;
+  }
+
+
+
   .navbar-nav li {
     display: inline-block;
     margin: 0 8px;
